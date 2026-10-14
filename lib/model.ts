@@ -1,0 +1,10 @@
+import { z } from 'zod';
+export const nutrientsSchema=z.object({kcal:z.number().min(0).max(1000),protein:z.number().min(0).max(100),carbs:z.number().min(0).max(100),fat:z.number().min(0).max(100)});
+export const ingredientSchema=z.object({name:z.string().trim().min(1).max(120),grams:z.number().positive().max(100000),nutrients:nutrientsSchema.nullable(),source:z.string().max(200).default('Rótulo informado pelo usuário')});
+export const recipeSchema=z.object({title:z.string().trim().min(3).max(120),description:z.string().max(2000),category:z.string().max(60),folder:z.string().max(60),servings:z.number().positive().max(10000),weight:z.number().positive().max(1000000).nullable(),minutes:z.number().min(0).max(10000),ingredients:z.array(ingredientSchema).min(1).max(100),steps:z.string().trim().min(5).max(12000),notes:z.string().max(5000),visibility:z.enum(['private','public']),photoId:z.string().uuid().nullable(),tags:z.string().max(300)});
+export type Nutrients=z.infer<typeof nutrientsSchema>;
+export type Ingredient=z.infer<typeof ingredientSchema>;
+export type RecipeData=z.infer<typeof recipeSchema>;
+export type Recipe={id:string;owner_id:string;author:string;version:number;data:RecipeData;created_at:string;updated_at:string;likes:number;liked:boolean;saved:boolean;source_id:string|null};
+export type Cook={id:string;version:number;data:{date:string;notes:string;taste:number;texture:number;appearance:number;photoId:string|null};created_at:string};
+export const emptyRecipe=():RecipeData=>({title:'',description:'',category:'Cozinha quente',folder:'',servings:4,weight:null,minutes:30,ingredients:[{name:'',grams:100,nutrients:null,source:''}],steps:'',notes:'',visibility:'private',photoId:null,tags:''});
