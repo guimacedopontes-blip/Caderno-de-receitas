@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS profiles (id text PRIMARY KEY, name text NOT NULL, bio text NOT NULL DEFAULT '', created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS recipes (id uuid PRIMARY KEY, owner_id text NOT NULL REFERENCES profiles(id), data jsonb NOT NULL, version integer NOT NULL DEFAULT 1, source_id uuid REFERENCES recipes(id), archived boolean NOT NULL DEFAULT false, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX IF NOT EXISTS recipes_owner ON recipes(owner_id);
+CREATE INDEX IF NOT EXISTS recipes_visibility ON recipes((data->>'visibility'));
+CREATE TABLE IF NOT EXISTS recipe_versions (recipe_id uuid REFERENCES recipes(id), version integer NOT NULL, data jsonb NOT NULL, created_at timestamptz NOT NULL DEFAULT now(), PRIMARY KEY(recipe_id,version));
+CREATE TABLE IF NOT EXISTS cooks (id uuid PRIMARY KEY, recipe_id uuid NOT NULL REFERENCES recipes(id), owner_id text NOT NULL REFERENCES profiles(id), version integer NOT NULL, data jsonb NOT NULL, created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS folders (id uuid PRIMARY KEY, owner_id text NOT NULL REFERENCES profiles(id), name text NOT NULL, UNIQUE(owner_id,name));
+CREATE TABLE IF NOT EXISTS likes (owner_id text REFERENCES profiles(id), recipe_id uuid REFERENCES recipes(id), PRIMARY KEY(owner_id,recipe_id));
+CREATE TABLE IF NOT EXISTS saves (owner_id text REFERENCES profiles(id), recipe_id uuid REFERENCES recipes(id), PRIMARY KEY(owner_id,recipe_id));
+CREATE TABLE IF NOT EXISTS comments (id uuid PRIMARY KEY, owner_id text NOT NULL REFERENCES profiles(id), recipe_id uuid NOT NULL REFERENCES recipes(id), body text NOT NULL, created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS follows (owner_id text REFERENCES profiles(id), target_id text REFERENCES profiles(id), PRIMARY KEY(owner_id,target_id), CHECK(owner_id<>target_id));
+CREATE TABLE IF NOT EXISTS blocks (owner_id text REFERENCES profiles(id), target_id text REFERENCES profiles(id), PRIMARY KEY(owner_id,target_id), CHECK(owner_id<>target_id));
+CREATE TABLE IF NOT EXISTS reports (id uuid PRIMARY KEY, owner_id text REFERENCES profiles(id), recipe_id uuid REFERENCES recipes(id), reason text NOT NULL, created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS photos (id uuid PRIMARY KEY, owner_id text NOT NULL REFERENCES profiles(id), bytes bytea NOT NULL, mime text NOT NULL, created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS rate_limits (key text PRIMARY KEY, count integer NOT NULL, reset_at timestamptz NOT NULL);
