@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { auth } from '@/lib/auth-server';
 import { sql } from '@/lib/db';
 import { recipeSchema } from '@/lib/model';
+import { resolveIngredient } from '@/lib/ingredients';
 import { z } from 'zod';
 import sharp from 'sharp';
 export const dynamic='force-dynamic';
@@ -36,7 +37,7 @@ export async function POST(req:NextRequest){try{
  const rate=await sql`INSERT INTO rate_limits(key,count,reset_at) VALUES(${u.id},1,now()+interval '1 minute') ON CONFLICT(key) DO UPDATE SET count=CASE WHEN rate_limits.reset_at<now() THEN 1 ELSE rate_limits.count+1 END,reset_at=CASE WHEN rate_limits.reset_at<now() THEN now()+interval '1 minute' ELSE rate_limits.reset_at END RETURNING count`;
  if(rate[0].count>60)return reply({error:'Muitas alterações. Aguarde um minuto.'},429);
  if(action==='recipe'){
- const data=recipeSchema.parse(body.data);const id=body.id?uuid.parse(body.id):crypto.randomUUID();
+ const parsed=recipeSchema.parse(body.data);const data=recipeSchema.parse({...parsed,ingredients:parsed.ingredients.map(resolveIngredient)});const id=body.id?uuid.parse(body.id):crypto.randomUUID();
  if(data.photoId){const p=await sql`SELECT id FROM photos WHERE id=${data.photoId} AND owner_id=${u.id}`;if(!p.length)return reply({error:'Foto inválida.'},400);}
  if(body.id){const expected=z.number().int().positive().parse(body.version);const changed=await sql.transaction([
  sql`UPDATE recipes SET data=${JSON.stringify(data)}::jsonb,version=version+1,updated_at=now() WHERE id=${id} AND owner_id=${u.id} AND version=${expected} RETURNING version`,
