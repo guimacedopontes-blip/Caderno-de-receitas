@@ -18,7 +18,8 @@ test('sem peso ou rendimento válido não produz infinito',()=>{
  const n=calculateNutrition([ingredient],0,0);assert.equal(n.perServing,null);assert.equal(n.per100g,null);
 });
 test('base TACO possui identificadores únicos e valores nutricionais plausíveis',()=>{
- assert.equal(foods.length,563);assert.equal(new Set(foods.map(f=>f.id)).size,563);
- for(const f of foods){for(const [k,v] of Object.entries(f.nutrients)){assert.ok(Number.isFinite(v)&&v>=0&&v<=(k==='kcal'?1000:100),f.name+' '+k)}}
- const rice=foods.find(f=>f.name==='Arroz, tipo 1, cozido');assert.ok(rice);assert.equal(rice.nutrients.kcal,128);assert.equal(rice.nutrients.carbs,28.1);
+ assert.equal(foods.length,597);assert.deepEqual(foods.map(f=>f.id),Array.from({length:597},(_,i)=>i+1));
+ assert.deepEqual(foods.filter(f=>!f.nutrients).map(f=>f.id),[450,457,458,472,591]);
+ for(const f of foods){if(!f.nutrients)continue;for(const [k,v] of Object.entries(f.nutrients)){assert.ok(Number.isFinite(v)&&v>=0&&v<=(k==='kcal'?1000:100),f.name+' '+k)}}
+ const rice=foods.find(f=>f.name==='Arroz, tipo 1, cozido');assert.ok(rice?.nutrients);assert.equal(rice.nutrients.kcal,128);assert.equal(rice.nutrients.carbs,28.1);
 });
