@@ -457,7 +457,7 @@
       "kcal": 361.0,
       "protein": 0.6,
       "carbs": 87.1,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 42"
   },
@@ -721,7 +721,7 @@
       "kcal": 14.0,
       "protein": 0.6,
       "carbs": 3.3,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 66"
   },
@@ -996,7 +996,7 @@
       "kcal": 52.0,
       "protein": 1.2,
       "carbs": 11.9,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 91"
   },
@@ -1007,7 +1007,7 @@
       "kcal": 64.0,
       "protein": 1.8,
       "carbs": 14.7,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 92"
   },
@@ -1227,7 +1227,7 @@
       "kcal": 19.0,
       "protein": 0.4,
       "carbs": 4.8,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 112"
   },
@@ -1557,7 +1557,7 @@
       "kcal": 10.0,
       "protein": 0.9,
       "carbs": 2.0,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 142"
   },
@@ -1601,7 +1601,7 @@
       "kcal": 351.0,
       "protein": 0.4,
       "carbs": 86.8,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 146"
   },
@@ -1755,7 +1755,7 @@
       "kcal": 28.0,
       "protein": 1.4,
       "carbs": 6.9,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 160"
   },
@@ -1766,7 +1766,7 @@
       "kcal": 21.0,
       "protein": 0.8,
       "carbs": 5.1,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 161"
   },
@@ -1865,7 +1865,7 @@
       "kcal": 22.0,
       "protein": 0.6,
       "carbs": 5.5,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 170"
   },
@@ -1876,7 +1876,7 @@
       "kcal": 183.0,
       "protein": 0.4,
       "carbs": 46.9,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 171"
   },
@@ -1887,7 +1887,7 @@
       "kcal": 53.0,
       "protein": 0.8,
       "carbs": 13.9,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 172"
   },
@@ -2019,7 +2019,7 @@
       "kcal": 46.0,
       "protein": 1.3,
       "carbs": 11.4,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 184"
   },
@@ -2294,7 +2294,7 @@
       "kcal": 37.0,
       "protein": 0.7,
       "carbs": 8.7,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 209"
   },
@@ -2393,7 +2393,7 @@
       "kcal": 14.0,
       "protein": 0.3,
       "carbs": 5.2,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 218"
   },
@@ -2437,7 +2437,7 @@
       "kcal": 56.0,
       "protein": 0.3,
       "carbs": 15.2,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 222"
   },
@@ -2580,7 +2580,7 @@
       "kcal": 33.0,
       "protein": 0.9,
       "carbs": 8.1,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 235"
   },
@@ -2591,7 +2591,7 @@
       "kcal": 29.0,
       "protein": 0.7,
       "carbs": 7.5,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 236"
   },
@@ -2635,7 +2635,7 @@
       "kcal": 43.0,
       "protein": 0.3,
       "carbs": 11.5,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 240"
   },
@@ -2679,7 +2679,7 @@
       "kcal": 36.0,
       "protein": 0.8,
       "carbs": 9.3,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 244"
   },
@@ -2690,7 +2690,7 @@
       "kcal": 63.0,
       "protein": 0.7,
       "carbs": 16.9,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 245"
   },
@@ -2734,7 +2734,7 @@
       "kcal": 56.0,
       "protein": 0.4,
       "carbs": 15.1,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 249"
   },
@@ -2767,7 +2767,7 @@
       "kcal": 36.0,
       "protein": 0.5,
       "carbs": 8.8,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 252"
   },
@@ -2789,7 +2789,7 @@
       "kcal": 37.0,
       "protein": 0.8,
       "carbs": 9.4,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 254"
   },
@@ -2831,11 +2831,35 @@
     "name": "Uva, suco concentrado, envasado",
     "nutrients": {
       "kcal": 58.0,
-      "protein": 0.0,
+      "protein": 0,
       "carbs": 14.7,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 258"
+  },
+  {
+    "id": 259,
+    "name": "Azeite, de dendê",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 259"
+  },
+  {
+    "id": 260,
+    "name": "Azeite, de oliva, extra virgem",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 260"
   },
   {
     "id": 261,
@@ -2864,7 +2888,7 @@
     "name": "Margarina, com óleo hidrogenado, com sal (65% de lipídeos)",
     "nutrients": {
       "kcal": 596.0,
-      "protein": 0.0,
+      "protein": 0,
       "carbs": 0.0,
       "fat": 67.4
     },
@@ -2875,7 +2899,7 @@
     "name": "Margarina, com óleo hidrogenado, sem sal (80% de lipídeos)",
     "nutrients": {
       "kcal": 723.0,
-      "protein": 0.0,
+      "protein": 0,
       "carbs": 0.0,
       "fat": 81.7
     },
@@ -2886,7 +2910,7 @@
     "name": "Margarina, com óleo interesterificado, com sal (65%de lipídeos)",
     "nutrients": {
       "kcal": 594.0,
-      "protein": 0.0,
+      "protein": 0,
       "carbs": 0.0,
       "fat": 67.2
     },
@@ -2897,11 +2921,83 @@
     "name": "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)",
     "nutrients": {
       "kcal": 593.0,
-      "protein": 0.0,
+      "protein": 0,
       "carbs": 0.0,
       "fat": 67.1
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 266"
+  },
+  {
+    "id": 267,
+    "name": "Óleo, de babaçu",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 267"
+  },
+  {
+    "id": 268,
+    "name": "Óleo, de canola",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 268"
+  },
+  {
+    "id": 269,
+    "name": "Óleo, de girassol",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 269"
+  },
+  {
+    "id": 270,
+    "name": "Óleo, de milho",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 270"
+  },
+  {
+    "id": 271,
+    "name": "Óleo, de pequi",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 271"
+  },
+  {
+    "id": 272,
+    "name": "Óleo, de soja",
+    "nutrients": {
+      "kcal": 884.0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 272"
   },
   {
     "id": 273,
@@ -4851,6 +4947,13 @@
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 449"
   },
   {
+    "id": 450,
+    "name": "Iogurte, sabor abacaxi",
+    "nutrients": null,
+    "note": "Análises em reavaliação na TACO. Selecione outra referência ou informe o rótulo.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 450"
+  },
+  {
     "id": 451,
     "name": "Iogurte, sabor morango",
     "nutrients": {
@@ -4915,6 +5018,20 @@
       "fat": 0.9
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 456"
+  },
+  {
+    "id": 457,
+    "name": "Leite, de vaca, desnatado, UHT",
+    "nutrients": null,
+    "note": "Análises em reavaliação na TACO. Selecione outra referência ou informe o rótulo.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 457"
+  },
+  {
+    "id": 458,
+    "name": "Leite, de vaca, integral",
+    "nutrients": null,
+    "note": "Análises em reavaliação na TACO. Selecione outra referência ou informe o rótulo.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 458"
   },
   {
     "id": 459,
@@ -5060,13 +5177,20 @@
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 471"
   },
   {
+    "id": 472,
+    "name": "Cana, aguardente",
+    "nutrients": null,
+    "note": "Macros não analisados na TACO; energia publicada: 216 kcal/100 g.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 472"
+  },
+  {
     "id": 473,
     "name": "Cana, caldo de",
     "nutrients": {
       "kcal": 65.0,
-      "protein": 0.0,
+      "protein": 0,
       "carbs": 18.2,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 473"
   },
@@ -5077,7 +5201,7 @@
       "kcal": 41.0,
       "protein": 0.6,
       "carbs": 3.3,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 474"
   },
@@ -5275,7 +5399,7 @@
       "kcal": 387.0,
       "protein": 0.3,
       "carbs": 99.6,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 492"
   },
@@ -5297,7 +5421,7 @@
       "kcal": 387.0,
       "protein": 0.3,
       "carbs": 99.5,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 494"
   },
@@ -5528,9 +5652,33 @@
       "kcal": 380.0,
       "protein": 8.9,
       "carbs": 89.2,
-      "fat": 0.0
+      "fat": 0
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 515"
+  },
+  {
+    "id": 516,
+    "name": "Sal, dietético",
+    "nutrients": {
+      "kcal": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 516"
+  },
+  {
+    "id": 517,
+    "name": "Sal, grosso",
+    "nutrients": {
+      "kcal": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    },
+    "note": "NA (não aplicável) contribui com zero para energia/macros em óleos puros e sais. Não representa análise de sódio.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 517"
   },
   {
     "id": 518,
@@ -6191,5 +6339,221 @@
       "fat": 0.5
     },
     "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 577"
+  },
+  {
+    "id": 578,
+    "name": "Lentilha, crua",
+    "nutrients": {
+      "kcal": 339.0,
+      "protein": 23.2,
+      "carbs": 62.0,
+      "fat": 0.8
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 578"
+  },
+  {
+    "id": 579,
+    "name": "Paçoca, amendoim",
+    "nutrients": {
+      "kcal": 487.0,
+      "protein": 16.0,
+      "carbs": 52.4,
+      "fat": 26.1
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 579"
+  },
+  {
+    "id": 580,
+    "name": "Pé-de-moleque, amendoim",
+    "nutrients": {
+      "kcal": 503.0,
+      "protein": 13.2,
+      "carbs": 54.7,
+      "fat": 28.0
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 580"
+  },
+  {
+    "id": 581,
+    "name": "Soja, farinha",
+    "nutrients": {
+      "kcal": 404.0,
+      "protein": 36.0,
+      "carbs": 38.4,
+      "fat": 14.6
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 581"
+  },
+  {
+    "id": 582,
+    "name": "Soja, extrato solúvel, natural, fluido",
+    "nutrients": {
+      "kcal": 39.0,
+      "protein": 2.4,
+      "carbs": 4.3,
+      "fat": 1.6
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 582"
+  },
+  {
+    "id": 583,
+    "name": "Soja, extrato solúvel, pó",
+    "nutrients": {
+      "kcal": 459.0,
+      "protein": 35.7,
+      "carbs": 28.5,
+      "fat": 26.2
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 583"
+  },
+  {
+    "id": 584,
+    "name": "Soja, queijo (tofu)",
+    "nutrients": {
+      "kcal": 64.0,
+      "protein": 6.6,
+      "carbs": 2.1,
+      "fat": 4.0
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 584"
+  },
+  {
+    "id": 585,
+    "name": "Tremoço, cru",
+    "nutrients": {
+      "kcal": 381.0,
+      "protein": 33.6,
+      "carbs": 43.8,
+      "fat": 10.3
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 585"
+  },
+  {
+    "id": 586,
+    "name": "Tremoço, em conserva",
+    "nutrients": {
+      "kcal": 121.0,
+      "protein": 11.1,
+      "carbs": 12.4,
+      "fat": 3.8
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 586"
+  },
+  {
+    "id": 587,
+    "name": "Amêndoa, torrada, salgada",
+    "nutrients": {
+      "kcal": 581.0,
+      "protein": 18.6,
+      "carbs": 29.5,
+      "fat": 47.3
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 587"
+  },
+  {
+    "id": 588,
+    "name": "Castanha-de-caju, torrada, salgada",
+    "nutrients": {
+      "kcal": 570.0,
+      "protein": 18.5,
+      "carbs": 29.1,
+      "fat": 46.3
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 588"
+  },
+  {
+    "id": 589,
+    "name": "Castanha-do-Brasil, crua",
+    "nutrients": {
+      "kcal": 643.0,
+      "protein": 14.5,
+      "carbs": 15.1,
+      "fat": 63.5
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 589"
+  },
+  {
+    "id": 590,
+    "name": "Coco, cru",
+    "nutrients": {
+      "kcal": 406.0,
+      "protein": 3.7,
+      "carbs": 10.4,
+      "fat": 42.0
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 590"
+  },
+  {
+    "id": 591,
+    "name": "Coco, verde, cru",
+    "nutrients": null,
+    "note": "Análises em reavaliação na TACO. Selecione outra referência ou informe o rótulo.",
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 591"
+  },
+  {
+    "id": 592,
+    "name": "Farinha, de mesocarpo de babaçu, crua",
+    "nutrients": {
+      "kcal": 329.0,
+      "protein": 1.4,
+      "carbs": 79.2,
+      "fat": 0.2
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 592"
+  },
+  {
+    "id": 593,
+    "name": "Gergelim, semente",
+    "nutrients": {
+      "kcal": 584.0,
+      "protein": 21.2,
+      "carbs": 21.6,
+      "fat": 50.4
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 593"
+  },
+  {
+    "id": 594,
+    "name": "Linhaça, semente",
+    "nutrients": {
+      "kcal": 495.0,
+      "protein": 14.1,
+      "carbs": 43.3,
+      "fat": 32.3
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 594"
+  },
+  {
+    "id": 595,
+    "name": "Pinhão, cozido",
+    "nutrients": {
+      "kcal": 174.0,
+      "protein": 3.0,
+      "carbs": 43.9,
+      "fat": 0.7
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 595"
+  },
+  {
+    "id": 596,
+    "name": "Pupunha, cozida",
+    "nutrients": {
+      "kcal": 219.0,
+      "protein": 2.5,
+      "carbs": 29.6,
+      "fat": 12.8
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 596"
+  },
+  {
+    "id": 597,
+    "name": "Noz, crua",
+    "nutrients": {
+      "kcal": 620.0,
+      "protein": 14.0,
+      "carbs": 18.4,
+      "fat": 59.4
+    },
+    "source": "TACO / NEPA–Unicamp, 4ª edição, 2011; alimento 597"
   }
 ]
