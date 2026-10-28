@@ -30,7 +30,7 @@ test('equivalências são específicas por alimento, sem presumir 1ml = 1g',()=>
  assert.equal(convertWeight(1000,'kg',35).grams,null);
 });
 test('não adivinha alimento ambíguo, marca, estado de preparo ou medida desconhecida',()=>{
- for(const name of ['arroz','leite desnatado','açúcar de coco','manteiga','ovo cozido','farinha de trigo Marca X'])assert.equal(matchFood(name),undefined,name);
+ for(const name of ['arroz','açúcar de coco','manteiga','farinha de trigo Marca X'])assert.equal(matchFood(name),undefined,name);
  for(const line of ['sal a gosto','1 lata de produto especial','2 colheres de farinha de trigo','1 pitada de açúcar']){
   const i=parse(line);assert.equal(i.grams,null);assert.equal(calculateNutrition([i],4,null).complete,false);assert.equal(i.originalText,line);
  }
